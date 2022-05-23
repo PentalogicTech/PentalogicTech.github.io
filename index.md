@@ -1,3 +1,40 @@
+Metodo: GET
+URL: https://pacs.clinicadelpilartuc.com.ar/api/study/getstudyurl.php
+Authorization Token: 871b2cd8-6018-46ed-9490-f86ec77fa4e2
+
+```markdown
+Parametros: 
+* pat_id - integer
+* accession_no - integer
+
+
+Responses:
+200 OK - Response Schema: application/json
+
+  result: Array of objects
+  	Array [
+   	  url: string
+        ]
+	
+200 OK	- Response Schema: application/json
+
+   result: object	
+	message: string
+	
+400 Bad Request - Response Schema: application/json
+
+   resultError: object	
+	message: string
+
+401 Unauthorized token
+
+   resultError: object	
+	message: string
+```
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/PentalogicTech/pentalogictech.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
