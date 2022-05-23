@@ -7,7 +7,7 @@ Implementación para Clinica del Pilar
 **Metodo:** *GET*
 
 
-**URL:** *https://pacs.clinicadelpilartuc.com.ar/api/study/getstudyurl.php*
+**URL:** *[https://pacs.clinicadelpilartuc.com.ar/api/study/getstudyurl.php](https://pacs.clinicadelpilartuc.com.ar/api/study/getstudyurl.php)*
 
 
 **Authorization Token:** *871b2cd8-6018-46ed-9490-f86ec77fa4e2*
