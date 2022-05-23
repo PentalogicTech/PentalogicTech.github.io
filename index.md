@@ -1,14 +1,17 @@
-Metodo: GET
-URL: https://pacs.clinicadelpilartuc.com.ar/api/study/getstudyurl.php
-Authorization Token: 871b2cd8-6018-46ed-9490-f86ec77fa4e2
 
 ```markdown
-Parametros: 
-* pat_id - integer
-* accession_no - integer
 
+**Metodo:** GET
 
-Responses:
+[**URL:**](https://pacs.clinicadelpilartuc.com.ar/api/study/getstudyurl.php)
+
+**Authorization Token:** *871b2cd8-6018-46ed-9490-f86ec77fa4e2*
+
+**Parametros:** 
+- pat_id - integer
+- accession_no - integer
+
+**Responses:**
 200 OK - Response Schema: application/json
 
   result: Array of objects
