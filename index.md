@@ -39,7 +39,7 @@ result: Array of objects
    resultError: object	
 	message: string
 ```
-- **401 Unauthorized token** - - Response Schema: application/json
+- **401 Unauthorized token** - Response Schema: application/json
 ```markdown
    resultError: object	
 	message: string
