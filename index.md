@@ -1,5 +1,6 @@
 
-# API de Consulta
+# getStudyURL
+Implementación para Clinica del Pilar
 >*Metodo que recibe el DNI + AN y devuelve la url del estudio*
 
 
@@ -38,7 +39,7 @@ result: Array of objects
    resultError: object	
 	message: string
 ```
-- **401 Unauthorized token**
+- **401 Unauthorized token** - - Response Schema: application/json
 ```markdown
    resultError: object	
 	message: string
