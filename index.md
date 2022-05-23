@@ -1,5 +1,5 @@
 
-### API de Consulta
+# API de Consulta
 >*Metodo que recibe el DNI + AN y devuelve la url del estudio*
 
 
