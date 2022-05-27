@@ -1,10 +1,10 @@
 
 # study/getstudyurl()
 Implementación para Clinica del Pilar
->*Metodo que recibe el DNI + AN y devuelve la url del estudio*
+>*Método que recibe el DNI + AN y devuelve la URL del estudio*
 
 
-**Metodo:** *GET*
+**Método:** *GET*
 
 
 **URL:** *[https://pacs.clinicadelpilartuc.com.ar/api/study/getstudyurl.php](https://pacs.clinicadelpilartuc.com.ar/api/study/getstudyurl.php)*
@@ -13,7 +13,7 @@ Implementación para Clinica del Pilar
 **Authorization Token:** *871b2cd8-6018-46ed-9490-f86ec77fa4e2*
 
 
-**Parametros:** 
+**Parámetros:** 
 - pat_id - integer
 - accession_no - integer
 
@@ -44,17 +44,16 @@ result: Array of objects
    resultError: object	
 	message: string
 ```
-
-
-
-
+<br>
+<br>
+<br>
 
 # worklist/create()
 Implementación para Clinica del Pilar
->*Metodo que recibe datos de un ingreso de paciente e inserta en la cola de envío al servidor de worklist*
+>*Método que recibe datos de un ingreso de paciente e inserta en la cola de envío al servidor de worklist*
 
 
-**Metodo:** *POST*
+**Método:** *POST*
 
 
 **URL:** *[https://pacs.clinicadelpilartuc.com.ar/api/worklist/create.php](https://pacs.clinicadelpilartuc.com.ar/api/worklist/create.php)*
@@ -77,7 +76,7 @@ object
 	dni: integer
 	fechanac: integer ['YYYYMMDD']
 	sexo: string ['M','F']
-  	aetitle: string
+	aetitle: string
 ```
 
 
