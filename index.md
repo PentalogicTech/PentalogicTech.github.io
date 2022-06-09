@@ -1,23 +1,21 @@
 
 # study/getstudyurl()
-Implementación para Clinica del Pilar
+
 >*Método que recibe el DNI + AN y devuelve la URL del estudio*
 
 
 **Método:** *GET*
 
 
-**URL:** *[https://pacs.clinicadelpilartuc.com.ar/api/study/getstudyurl.php](https://pacs.clinicadelpilartuc.com.ar/api/study/getstudyurl.php)*
+**URL:** *[http://api.pentalogic.tech/study/getstudyurl.php](http://api.pentalogic.tech/study/getstudyurl.php)*
 
 
-**Authorization Token:** *871b2cd8-6018-46ed-9490-f86ec77fa4e2*
+**Authorization Token:** *37061723-12bb-4766-a1df-d12c2e1c0241*
 
 
 **Parámetros:** 
 - pat_id - integer
 - accession_no - integer
-
-
 
 
 **Responses:**
@@ -49,17 +47,17 @@ result: Array of objects
 <br>
 
 # worklist/create()
-Implementación para Clinica del Pilar
+
 >*Método que recibe datos de un ingreso de paciente e inserta en la cola de envío al servidor de worklist*
 
 
 **Método:** *POST*
 
 
-**URL:** *[https://pacs.clinicadelpilartuc.com.ar/api/worklist/create.php](https://pacs.clinicadelpilartuc.com.ar/api/worklist/create.php)*
+**URL:** *[http://api.pentalogic.tech/worklist/create.php](http://api.pentalogic.tech/worklist/create.php)*
 
 
-**Authorization Token:** *871b2cd8-6018-46ed-9490-f86ec77fa4e2*
+**Authorization Token:** *37061723-12bb-4766-a1df-d12c2e1c0241*
 
 
 **Request:**
@@ -102,3 +100,52 @@ object
    resultError: object	
 	message: string
 ```
+<br>
+<br>
+<br>
+
+# worklist/list()
+
+>*Método que permite listar los registros que se encuentran en la cola de envío a worklist, en estado pendiente*
+
+
+**Método:** *GET*
+
+
+**URL:** *[http://api.pentalogic.tech/worklist/list.php](http://api.pentalogic.tech/worklist/list.php)*
+
+
+**Authorization Token:** *37061723-12bb-4766-a1df-d12c2e1c0241*
+
+
+**Responses:**
+
+- **200 OK** - Response Schema: application/json
+```markdown
+result: Array of objects
+  	Array [
+   	  accion: string ['NW','CA']
+	  accessionnumber: integer
+	  modalidad: string ['CR','MR','CT','US','DX','MG','NM','NN']
+	  estudio: string
+	  apellido: string
+	  nombre: string
+	  dni: integer
+	  fechanac: integer ['YYYYMMDD']
+	  sexo: string ['M','F']
+	  aetitle: string
+        ]
+```	
+- **200 OK** - Response Schema: application/json
+```markdown
+   result: object	
+	message: string
+```	
+- **401 Unauthorized token** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+<br>
+<br>
+<br>
