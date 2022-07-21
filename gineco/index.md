@@ -66,7 +66,7 @@ result: Array of objects
 ```markdown
 object
 	accion: string ['NW','CA']
-	accessionnumber: integer
+	accessionnumber: string
 	modalidad: string ['CR','MR','CT','US','DX','MG','NM','NN']
 	estudio: string
 	apellido: string
