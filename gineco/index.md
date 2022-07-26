@@ -15,7 +15,7 @@
 
 **Parámetros:** 
 - pat_id - integer
-- accession_no - integer
+- accession_no - string
 
 
 **Responses:**
@@ -125,7 +125,7 @@ object
 result: Array of objects
   	Array [
    	  accion: string ['NW','CA']
-	  accessionnumber: integer
+	  accessionnumber: string
 	  modalidad: string ['CR','MR','CT','US','DX','MG','NM','NN']
 	  estudio: string
 	  apellido: string
