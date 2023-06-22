@@ -10,7 +10,7 @@
 **URL:** *[https://apifisika.pentalogic.tech/api/study/getstudyurl.php](http://apifisika.pentalogic.tech/api/study/getstudyurl.php)*
 
 
-**Authorization Token:** *b0f4f0c9-f404-47fd-b62c-8094e2c78c6a*
+**Authorization Token:** *(solicitar)*
 
 
 **Parámetros:** 
@@ -57,7 +57,7 @@ result: Array of objects
 **URL:** *[https://apifisika.pentalogic.tech/api/worklist/create.php](https://apifisika.pentalogic.tech/api/worklist/create.php)*
 
 
-**Authorization Token:** *b0f4f0c9-f404-47fd-b62c-8094e2c78c6a*
+**Authorization Token:** *(solicitar)*
 
 
 **Request:**
@@ -115,7 +115,7 @@ object
 **URL:** *[https://apifisika.pentalogic.tech/api/worklist/list.php](https://apifisika.pentalogic.tech/api/worklist/list.php)*
 
 
-**Authorization Token:** *b0f4f0c9-f404-47fd-b62c-8094e2c78c6a*
+**Authorization Token:** *(solcitar)*
 
 
 **Responses:**

@@ -10,7 +10,7 @@
 **URL:** *[https://apigineco.pentalogic.tech/api/study/getstudyurl.php](http://apigineco.pentalogic.tech/api/study/getstudyurl.php)*
 
 
-**Authorization Token:** *73e86c64-a8e4-4f79-87a2-f91aca93861d*
+**Authorization Token:** *(solicitar)*
 
 
 **Parámetros:** 
@@ -57,7 +57,7 @@ result: Array of objects
 **URL:** *[https://apigineco.pentalogic.tech/api/worklist/create.php](https://apigineco.pentalogic.tech/api/worklist/create.php)*
 
 
-**Authorization Token:** *73e86c64-a8e4-4f79-87a2-f91aca93861d*
+**Authorization Token:** *(solicitar)*
 
 
 **Request:**
@@ -115,7 +115,7 @@ object
 **URL:** *[https://apigineco.pentalogic.tech/api/worklist/list.php](https://apigineco.pentalogic.tech/api/worklist/list.php)*
 
 
-**Authorization Token:** *73e86c64-a8e4-4f79-87a2-f91aca93861d*
+**Authorization Token:** *(solicitar)*
 
 
 **Responses:**
