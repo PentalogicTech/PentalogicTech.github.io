@@ -46,6 +46,59 @@ result: Array of objects
 <br>
 <br>
 
+
+# study/getstudylist()
+
+>*Método que recibe el DNI + Fecha Desde + Fecha Hasta y devuelve el listado de estudios*
+
+
+**Método:** *GET*
+
+
+**URL:** *[http://api.pentalogic.tech/study/getstudylist.php](http://api.pentalogic.tech/study/getstudylist.php)*
+
+
+**Authorization Token:** *37061723-12bb-4766-a1df-d12c2e1c0241*
+
+
+**Parámetros:** 
+- pat_id - integer
+- fecha_desde - date
+- fecha_hasta - date
+
+**Responses:**
+
+- **200 OK** - Response Schema: application/json
+```markdown
+result: Array of objects
+  	Array [
+   	  pat_id: integer,
+			study_datetime: datetime,
+			accession_no: string,
+			study_desc: string,
+			mods_in_study: string,
+			url: string
+        ]
+```	
+- **200 OK** - Response Schema: application/json
+```markdown
+   result: object	
+	message: string
+```	
+- **400 Bad Request** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+- **401 Unauthorized token** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+<br>
+<br>
+<br>
+
 # worklist/create()
 
 >*Método que recibe datos de un ingreso de paciente e inserta en la cola de envío al servidor de worklist*
