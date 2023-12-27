@@ -7,7 +7,7 @@
 **Método:** *GET*
 
 
-**URL:** *[http://200.59.147.126/api/study/getstudyurl.php](http://200.59.147.126/api/study/getstudyurl.php)*
+**URL:** *[https://apiciat.pentalogic.tech/api/study/getstudyurl.php](https://apiciat.pentalogic.tech/api/study/getstudyurl.php)*
 
 
 **Authorization Token:** *(solicitar)*
@@ -54,7 +54,7 @@ result: Array of objects
 **Método:** *POST*
 
 
-**URL:** *[http://200.59.147.126/api/worklist/create.php](http://200.59.147.126/api/worklist/create.php)*
+**URL:** *[https://apiciat.pentalogic.tech/api/worklist/create.php](https://apiciat.pentalogic.tech/api/worklist/create.php)*
 
 
 **Authorization Token:** *(solicitar)*
@@ -112,7 +112,7 @@ object
 **Método:** *GET*
 
 
-**URL:** *[http://200.59.147.126/api/worklist/list.php](http://200.59.147.126/api/worklist/list.php)*
+**URL:** *[https://apiciat.pentalogic.tech/api/worklist/list.php](https://apiciat.pentalogic.tech/api/worklist/list.php)*
 
 
 **Authorization Token:** *(solicitar)*
