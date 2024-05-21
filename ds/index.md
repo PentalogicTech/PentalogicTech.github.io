@@ -249,3 +249,158 @@ result: Array of objects
 <br>
 <br>
 <br>
+
+
+# studyxusuario/create()
+
+>*Método que recibe datos de asignacion de usuario a estudio*
+
+
+**Método:** *POST*
+
+
+**URL:** *[https://pacs.diagnosticosalta.com.ar/api/studyxusuario/create.php](https://pacs.diagnosticosalta.com.ar/api/studyxusuario/create.php)*
+
+
+**Authorization Token:** *(Solicitar)*
+
+
+**Request:**
+
+- Body Schema: application/json
+```markdown
+object
+	accessionnumber: integer
+	usuario_id: integer
+```
+
+
+**Responses:**
+
+- **200 OK** - Response Schema: application/json
+```markdown
+result: Array of objects
+  	Array [
+	  studyxusuario_id: integer
+        ]
+```	
+- **503 Service Unavailable** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+- **400 Bad Request** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+- **401 Unauthorized token** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+<br>
+<br>
+<br>
+
+
+# studyxusuario/update()
+
+>*Método que recibe datos de modificacion asignacion de usuario a estudio*
+
+
+**Método:** *POST*
+
+
+**URL:** *[https://pacs.diagnosticosalta.com.ar/api/studyxusuario/update.php](https://pacs.diagnosticosalta.com.ar/api/studyxusuario/update.php)*
+
+
+**Authorization Token:** *(Solicitar)*
+
+
+**Request:**
+
+- Body Schema: application/json
+```markdown
+object
+	studyxusuario_id: integer
+	accessionnumber: integer
+	usuario_id: integer
+```
+
+
+**Responses:**
+
+- **200 OK** - Response Schema: application/json
+```markdown
+   result: object	
+	message: string
+```	
+- **503 Service Unavailable** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+- **400 Bad Request** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+- **401 Unauthorized token** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+<br>
+<br>
+<br>
+
+
+# studyxusuario/delete()
+
+>*Método que recibe datos de eliminacion asignacion de usuario a estudio*
+
+
+**Método:** *POST*
+
+
+**URL:** *[https://pacs.diagnosticosalta.com.ar/api/studyxusuario/delete.php](https://pacs.diagnosticosalta.com.ar/api/studyxusuario/delete.php)*
+
+
+**Authorization Token:** *(Solicitar)*
+
+
+**Request:**
+
+- Body Schema: application/json
+```markdown
+object
+	studyxusuario_id: integer
+```
+
+
+**Responses:**
+
+- **200 OK** - Response Schema: application/json
+```markdown
+   result: object	
+	message: string
+```	
+- **503 Service Unavailable** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+- **400 Bad Request** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+- **401 Unauthorized token** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+<br>
+<br>
+<br>
