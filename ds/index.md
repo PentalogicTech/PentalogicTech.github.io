@@ -404,3 +404,58 @@ object
 <br>
 <br>
 <br>
+
+# datoadicional/create()
+
+>*Método que recibe datos adicionales al estudio, e imagenes vinculadas al mismo*
+
+
+**Método:** *POST*
+
+
+**URL:** *[https://pacs.diagnosticosalta.com.ar/api/datoadicional/create.php](https://pacs.diagnosticosalta.com.ar/api/datoadicional/create.php)*
+
+
+**Authorization Token:** *(Solicitar)*
+
+
+**Request:**
+
+- Body Schema: application/json
+```markdown
+object
+	accessionnumber: text
+	comentario: text
+	imagenes: Array [
+		imagen: base64image
+	]
+```
+
+
+**Responses:**
+
+- **200 OK** - Response Schema: application/json
+```markdown
+result: Array of objects
+  	Array [
+	  datoadicionalstudy_id: integer
+        ]
+```	
+- **503 Service Unavailable** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+- **400 Bad Request** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+- **401 Unauthorized token** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+<br>
+<br>
+<br>
