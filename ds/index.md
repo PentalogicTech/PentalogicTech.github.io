@@ -427,7 +427,10 @@ object
 	accessionnumber: text
 	comentario: text
 	imagenes: Array [
-		imagen: base64image
+		Array [
+			tipo: ["jpeg", "pdf"]	
+			imagen: base64image
+		]
 	]
 ```
 
