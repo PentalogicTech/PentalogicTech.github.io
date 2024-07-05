@@ -432,6 +432,9 @@ object
 			imagen: base64image
 		]
 	]
+	estudio: text
+	medico: text
+	obrasocial: text
 ```
 
 
