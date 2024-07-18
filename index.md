@@ -10,7 +10,7 @@
 **URL:** *[http://api.pentalogic.tech/study/getstudyurl.php](http://api.pentalogic.tech/study/getstudyurl.php)*
 
 
-**Authorization Token:** *37061723-12bb-4766-a1df-d12c2e1c0241*
+**Authorization Token:** *d7b3a04d-e8c9-498f-ab51-625b1f920960*
 
 
 **Parámetros:** 
@@ -58,7 +58,7 @@ result: Array of objects
 **URL:** *[http://api.pentalogic.tech/study/getstudylist.php](http://api.pentalogic.tech/study/getstudylist.php)*
 
 
-**Authorization Token:** *37061723-12bb-4766-a1df-d12c2e1c0241*
+**Authorization Token:** *d7b3a04d-e8c9-498f-ab51-625b1f920960*
 
 
 **Parámetros:** 
@@ -110,7 +110,7 @@ result: Array of objects
 **URL:** *[http://api.pentalogic.tech/study/getqrurl.php](http://api.pentalogic.tech/study/getqrurl.php)*
 
 
-**Authorization Token:** *37061723-12bb-4766-a1df-d12c2e1c0241*
+**Authorization Token:** *d7b3a04d-e8c9-498f-ab51-625b1f920960*
 
 
 **Parámetros:** 
@@ -157,7 +157,7 @@ result: Array of objects
 **URL:** *[http://api.pentalogic.tech/study/getinformeurl.php](http://api.pentalogic.tech/study/getqrurl.php)*
 
 
-**Authorization Token:** *37061723-12bb-4766-a1df-d12c2e1c0241*
+**Authorization Token:** *d7b3a04d-e8c9-498f-ab51-625b1f920960*
 
 
 **Parámetros:** 
@@ -204,7 +204,7 @@ result: Array of objects
 **URL:** *[http://api.pentalogic.tech/worklist/create.php](http://api.pentalogic.tech/worklist/create.php)*
 
 
-**Authorization Token:** *37061723-12bb-4766-a1df-d12c2e1c0241*
+**Authorization Token:** *d7b3a04d-e8c9-498f-ab51-625b1f920960*
 
 
 **Request:**
@@ -262,7 +262,7 @@ object
 **URL:** *[http://api.pentalogic.tech/worklist/list.php](http://api.pentalogic.tech/worklist/list.php)*
 
 
-**Authorization Token:** *37061723-12bb-4766-a1df-d12c2e1c0241*
+**Authorization Token:** *d7b3a04d-e8c9-498f-ab51-625b1f920960*
 
 
 **Responses:**
