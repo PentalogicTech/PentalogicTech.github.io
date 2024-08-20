@@ -465,3 +465,55 @@ result: Array of objects
 <br>
 <br>
 <br>
+
+# derivante/create()
+
+>*Método que recibe matricula y nombre de medico derivante, y devuelve el id de usuario del mismo*
+
+
+**Método:** *POST*
+
+
+**URL:** *[https://pacs.diagnosticosalta.com.ar/api/derivante/create.php](https://pacs.diagnosticosalta.com.ar/api/derivante/create.php)*
+
+
+**Authorization Token:** *(Solicitar)*
+
+
+**Request:**
+
+- Body Schema: application/json
+```markdown
+object
+	matricula: number
+	nombre: text
+```
+
+
+**Responses:**
+
+- **200 OK** - Response Schema: application/json
+```markdown
+result: Array of objects
+  	Array [
+	  id: integer
+        ]
+```	
+- **503 Service Unavailable** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+- **400 Bad Request** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+- **401 Unauthorized token** - Response Schema: application/json
+```markdown
+   resultError: object	
+	message: string
+```
+<br>
+<br>
+<br>
