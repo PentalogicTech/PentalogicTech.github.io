@@ -222,6 +222,8 @@ object
 	fechanac: integer ['YYYYMMDD']
 	sexo: string ['M','F']
 	aetitle: string
+	telefono: string
+	email: string
 ```
 
 
@@ -281,6 +283,8 @@ result: Array of objects
 	  fechanac: integer ['YYYYMMDD']
 	  sexo: string ['M','F']
 	  aetitle: string
+		telefono: string
+		email: string
         ]
 ```	
 - **200 OK** - Response Schema: application/json
